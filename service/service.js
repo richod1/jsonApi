@@ -1,8 +1,8 @@
 
 const alldata=require("../database/data.js")
 const getAllapi=()=>{
-    const getAllapis=alldata.getAllapi;
-    return getAllapis
+    const getAllapis=alldata.getAllapi();
+    return getAllapis;
 }
 
 

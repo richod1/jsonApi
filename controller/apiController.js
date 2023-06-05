@@ -4,6 +4,7 @@
 const service=require("../service/service")
 const getAllapi=(req,res)=>{
 const getAirbnb=service.getAllapi()
+res.send({status:"OK",data:getAirbnb})
 }
 
 const getOneapi=(req,res)=>{
